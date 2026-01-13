@@ -23,7 +23,3 @@ You are playing the **Bulls and Cows** game. You are given a `secret` number and
 * **Output:** `"1A1B"`
 
 ---
-
-
-
-這份筆記把 **Example 2** 的重複數字處理邏輯說得很清楚了。如果之後你想挑戰進階寫法（例如只用一次迴圈），我們也可以再討論！需要我幫你整理下一題嗎？
