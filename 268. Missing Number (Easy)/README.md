@@ -28,8 +28,8 @@ Given an array `nums` containing `n` distinct numbers in the range , return *the
 ### Constraints:
 
 * `n == nums.length`
-* 
-* 
+* `1 <= n <= 104`
+* `0 <= nums[i] <= n`
 * All the numbers of `nums` are **unique**.
 
 ---
