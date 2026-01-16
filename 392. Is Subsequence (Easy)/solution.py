@@ -7,4 +7,4 @@ class Solution:
                 ptr_s += 1
     
             ptr_t += 1
-        return ptr_s >= len(s) # 如果ptr_s已經搜完則True；反之則False
+        return ptr_s == len(s) # 如果ptr_s已經搜完則True；反之則False
