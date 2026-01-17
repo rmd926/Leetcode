@@ -12,3 +12,6 @@ class Solution:
                 res2.add(num)
         
         return [list(res1), list(res2)]
+
+# Runtime: 11 ms Beats 35.78 %
+# Memory: 19.51 MB Beats 11.54 %
