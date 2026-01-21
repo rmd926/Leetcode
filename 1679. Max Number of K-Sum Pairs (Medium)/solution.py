@@ -16,3 +16,6 @@ class Solution:
                 right -= 1
         
         return count
+
+# Runtime: 454 ms Beats 94.54 %
+# Memory: 31.54 MB Beats 18.17 %
