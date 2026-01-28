@@ -1,0 +1,30 @@
+# 78. Subsets (Medium)
+
+## Problem Description
+You are given an integer array `nums` containing **unique** elements.
+
+Return **all possible subsets** of `nums` (also known as the **power set**).
+
+- The solution set **must not** contain duplicate subsets.
+- You may return the subsets in **any order**.
+
+---
+
+## Examples
+
+### Example 1
+**Input:** `nums = [1, 2, 3]`  
+**Output:**  
+`[[], [1], [2], [1,2], [3], [1,3], [2,3], [1,2,3]]`
+
+### Example 2
+**Input:** `nums = [0]`  
+**Output:**  
+`[[], [0]]`
+
+---
+
+## Constraints
+- `1 <= nums.length <= 10`
+- `-10 <= nums[i] <= 10`
+- All elements in `nums` are unique
