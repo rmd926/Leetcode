@@ -1,3 +1,11 @@
+# Method 1: One Line solution
+class Solution:
+    def maximum69Number (self, num: int) -> int:
+        return int(str(num).replace("6", "9", 1))
+# Runtime: 0 ms Beats 100.00 %
+# Memory: 19.34 MB Beats 31.31 %
+
+# Method 2:
 class Solution:
     def maximum69Number (self, num: int) -> int:
         num = list(str(num))
