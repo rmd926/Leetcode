@@ -9,4 +9,4 @@ class Solution:
         return bits
 
 # Runtime: 3 ms Beats 95.58 %
-# Memory: 20.17 % Beats 61.78 %
+# Memory: 20.17 MB Beats 61.78 %
