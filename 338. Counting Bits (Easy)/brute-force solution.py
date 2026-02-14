@@ -15,4 +15,4 @@ class Solution:
         return ans
 
 # Runtime: 38 ms Beats 20.90 %
-# Memory: 20.32 % Beats 29.66 %
+# Memory: 20.32 MB Beats 29.66 %
