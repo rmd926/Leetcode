@@ -22,3 +22,18 @@ class Solution:
 
 # Runtime: 43 ms Beats 91.84 %
 # Memory: 22.70 MB Beats 39.87 %
+
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow = fast = head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+                
+        return False
+
+# Runtime: 46 ms Beats 84.11 %
+# Memory: 22.60 MB Beats 62.78 %
