@@ -1,8 +1,3 @@
-'''
-Time Complexity: O(m + n)
-Space Complexity: O(m + n)
-'''
-
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
         n = min(len(word1), len(word2))
@@ -19,5 +14,13 @@ class Solution:
         
         return ans
 
-# Runtime: 42 ms Beats 75.60 %
-# Memory: 19.26 MB Beats 56.19 %
+'''
+Performance Analysis:
+-------------------------------
+Time Complexity: O(m + n)
+Space Complexity: O(m + n)
+-------------------------------
+Runtime: 42 ms Beats 75.60 %
+Memory: 19.26 MB Beats 56.19 %
+-------------------------------
+'''
