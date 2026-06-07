@@ -1,16 +1,18 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
+        n = min(len(word1), len(word2))
         ans = ""
-        i = 0
-
-        while i < len(word1) and i < len(word2):
+        
+        for i in range(n):
             ans += word1[i]
             ans += word2[i]
-            i += 1
         
-        if i < len(word1):
-            ans += word1[i:]
+        if len(word2) > len(word1):
+            ans += word2[n:]
         else:
-            ans += word2[i:]
+            ans += word1[n:]
         
         return ans
+
+# Runtime: 42 ms Beats 75.60 %
+# Memory: 19.26 MB Beats 56.19 %
