@@ -10,7 +10,15 @@ class Solution:
                 left += 1
 
             else:
-                return [left+1, right+1]
+                return left+1, right+1
 
-# Runtime: 3 ms Beats 80.36 %
-# Memory: 20.57 MB Beats 57.94 %
+'''
+Performance Analysis:
+-------------------------------
+Time Complexity: O(n)
+Space Complexity: O(1)
+-------------------------------
+Runtime: 3 ms Beats 80.36 %
+Memory: 20.57 MB Beats 57.94 %
+-------------------------------
+'''
