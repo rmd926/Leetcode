@@ -19,3 +19,5 @@ class Solution:
                 ans += lookup[s[i]]
 
         return ans
+
+# 這題只要把對應的符號建dict去放即可
