@@ -16,6 +16,6 @@ class Solution:
                 ans = max(ans, dfs(r, c))
 
         return ans
-
+# 標準DFS 模板題
 # Runtime: 26 ms Beats 35.38 %
 # Memory: 23.73 MB Beats 12.79 %
